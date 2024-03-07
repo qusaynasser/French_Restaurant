@@ -1,0 +1,546 @@
+/* 
+public style
+ */
+
+ @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+ *
+ {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ img
+ {
+     width: 100%;
+ }
+ a
+ {
+     text-decoration: none;
+ }
+ ul
+ {
+     list-style: none;
+ }
+ .clearfix
+ {
+     clear: both;
+ }
+ /* start header */
+ .header
+ {
+     background-image: url('../img/background');
+     height: 100vh;
+     background-size: cover;
+     text-align: center;
+     overflow: hidden;
+ }
+ .logo
+ {
+     float: left;
+     width: 40%;
+     margin-top: 50px;
+ }
+ .logo img
+ {
+     width: 30%;
+ }
+  /* .navbar
+ {
+     background-color:aqua;
+     position: fixed;
+     width: 100%;
+     top: 0;
+ }  */
+ 
+ .nav
+ {
+     float: left;
+     width: 60%;
+     margin-top: 80px;
+ }
+ .nav ul li
+ {
+     display: inline-block;
+     width: 80px;
+ }
+ .nav ul li a
+ {
+     color: #fff;
+     font-size: 20px;
+ }
+ .nav ul li a:hover
+ {
+     cursor: pointer;
+     color: orange
+ }
+ .header-content img
+ {
+     width: 25%;
+ }
+ .header-content 
+ {
+     margin-top: 50px;
+     color: #fff;
+ }
+ .header-content h1
+ {
+     margin: 30px;
+     font-size: 50px;
+ }
+ .header-content p
+ {
+     margin-bottom: 30px;
+     font-size: 40px;
+     font-family: 'Dancing Script', cursive;
+ }
+ .header-content button
+ {
+     padding: 15px 28px;
+     font-family: 'Alegreya Sans';
+     font-size: 16px;
+     color: #121212;
+     font-weight: bold;
+ }
+ .header-content .learn-more
+ {
+     background-color: #c1ab84;
+     color: #fff;
+     font-family: "Alegreya Sans";
+     font-size: 16px;
+     font-weight: bold;
+ }
+ .header-content .learn-more:hover
+ {
+     background-color: #fff;
+     color: black;
+     cursor: pointer;
+ }
+ .overlay
+ {
+     background-color: rgb(0,0,0,.2);
+     height: 100vh;
+ }
+ /* end header */
+ 
+ /* start business */
+ .business
+ {
+     margin-top: 80px;
+ }
+ .chef img
+ {
+     width: 60%;
+ }
+ .chef
+ {
+     float: left;
+     width: 50%;
+     text-align: center;
+ }
+ .family-business
+ {
+     float: left;
+     width: 42%;
+     margin-top: 100px;
+ }
+ .edit
+ {
+     font-size: 30px;
+     color: #253048;
+     /* font-family: 'Alegreya', sans-serif; */
+ }
+ .more
+ {
+     color: #c1ab84;
+     font-size: 20px;
+     margin:12px 0 ;
+     font-family: "Dancing Script";
+     font-size: 28px
+ }
+ .pargraph
+ {
+     margin: 18px 0;
+     line-height:32px;
+     font-family: 'Alegreya Sans', sans-serif;
+     color: #686868;
+     font-size: 20px;
+ }
+ .icon-list span
+ {
+     font-family: 'Alegreya Sans', sans-serif;
+     color: #686868;
+     font-size: 20px;
+     padding-left:10px ;
+ }
+ .icon-list i
+ {
+     background-color: #c1ab84;
+     color: #fff;
+     font-size: 24px;
+     width: 52px;
+     height: 52px;
+     margin: 5px 0;
+     border-radius: 100%;
+     text-align: center;   
+     line-height: 52px;
+ }
+ /* end business */
+ 
+ /* start Reviewers */
+ 
+ .reviewers
+ {
+     background-color: #f8f8f8;
+     height: 90vh;
+ }
+ .review
+ {
+     float: left;
+     width: 50%;
+     margin-top: 100px;
+     padding-left:80px;
+ }
+ .review ul li span
+ {
+     font-size: 20px;
+     font-family: 'Alegreya Sans', sans-serif;
+     color: #686868;
+     padding-left: 10px;
+ }
+ .review ul li i
+ {
+     font-size: 20px;
+     margin: 10px 0;
+     color: #c1ab84;
+ }
+ .img-table img
+ {
+     width: 42%;
+     margin-top: 100px;
+     padding-left: 80px;
+ }
+ /* end Reviewers */
+ 
+ /* background img */
+ 
+ .background-img img
+ {
+     width: 100%;
+     background-attachment: fixed;
+     height: 75vh;
+ }
+ /* start menu */
+ .menu
+ {
+     background-color:#f8f8f8 ;
+ }
+ .menu .edit
+ {
+     text-align: center;
+     padding-top: 50px;
+ }
+ .menu .more
+ {
+     text-align: center;
+     margin: 15px 0;
+     color: #c1ab84;
+     font-size: 28px;
+     font-family: 'Dancing Script', cursive;
+ }
+ .list-menu img
+ {
+     width:90%;
+ }
+ .list-menu
+ {
+     float: left;
+     width: 33.33%;
+     padding: 50px 30px;
+     text-align: center;
+ }
+ .list-menu h5
+ {
+     font-size: 22px;
+     font-family: 'Alegreya Sans', sans-serif;
+     color: #253048;
+     margin: 20px 0;
+ }
+ .list-menu p
+ {
+     font-size: 18px;
+     font-family: 'Alegreya Sans', sans-serif;
+     color: #686868;
+     line-height: 1.86em;
+ }
+ .view-menu
+ {
+     padding: 15px 20px;
+     margin-left: 45%;
+     background-color: #c1ab84;
+     color: #ffffff;
+     font-size: 16px;
+     font-family: 'Alegreya Sans', sans-serif;
+     font-weight: bold;
+ }
+ .view-menu:hover
+ {
+     cursor: pointer;
+ }
+ /* end menu */
+ 
+ /*  start box  */
+ .box
+ {
+     background-color: aqua;
+     width: 70px;
+     height: 90px;
+     padding: 10px 10px;
+     font-size: 24px;
+     position: fixed;
+     top: 180px;
+     right: 0;
+     background-color: #f8f8f8;
+     color: #666;
+ }
+ .box i
+ {
+     margin: 8px 0;
+ }
+ /*  end box  */
+ 
+ /* start location */
+ .location
+ {
+     margin-top: 50px;
+     /* background-color:#f8f8f8 */
+ }
+ .describe
+ {
+     /* float: left; */
+     display: inline-block;
+     width: 50%;
+     padding-left:  50px; 
+ }
+ .describe .pargraph
+ {
+     margin-top: 35px;
+     width: 95%;
+     line-height: 35px;
+ }
+ .map
+ {
+     /* float: left; */
+     display: inline-block;
+     width: 30%;
+ }
+ .describe .icon-list p
+ {
+     font-size: 18px;
+     font-family: 'Alegreya Sans', sans-serif;
+     color: #686868;
+     margin: 30px 0;
+ }
+ 
+ /* end location */
+ 
+ /* start concat-info */
+ .concat-info
+ {
+     background-color: #403d38;
+     margin-top: 50px;
+     /* height: 60vh; */
+ }
+ .about-us
+ {
+     float: left;
+     width: 30%;
+     padding-left: 60px;
+     margin: 35px 0;
+ }
+ .about-us p
+ {
+     width: 95%;
+     margin: 20px 0;
+     color: #969696;
+ }
+ .useful-link
+ {
+     float: left;
+     width: 20%;
+     margin: 35px 0;
+ }
+ .open-hours
+ {
+     float: left;
+     width: 20%;
+     margin: 40px 0;
+ }
+ .contact-details
+ {
+     float: left;
+     width: 20%;
+     margin: 35px 0;
+ }
+ .edit-color
+ {
+     color: #ffffff;
+     font-size: 20px;
+     font-family: "Alegreya"; 
+ }
+ .edit-size li 
+ {
+     color: #a9a9a9;
+     font-size: 16px;
+     font-family: "Alegreya Sans";
+     margin: 15px 0;
+     padding-left: 10px;
+ }
+ .edit-size li a
+ {
+     color: #a9a9a9;
+     font-size: 16px;
+     font-family: "Alegreya Sans";
+     padding-left: 10px;
+ }
+ .edit-size li span
+ {
+     padding-left: 10px;
+ }
+ 
+ /* end concat-info */
+ 
+ /* start footer */
+ .img-header img
+ {
+     width: 30%;
+ }
+ .footer
+ {
+     background-color: #353330;;
+     text-align: center;
+ }
+ .txt
+ {
+     font-size: 18px;
+     margin: 10px 0;
+     font-family: "Alegreya Sans";
+     color: #777777;
+ }
+ .icon i
+ {
+     background-color: #484540;
+     color: #333;
+     font-size: 24px;
+     width: 60px;
+     height: 60px;
+     margin: 20px 2px;
+     border-radius: 100%;
+     text-align: center;   
+     line-height: 60px;
+ }
+ .icon a i:hover
+ {
+     background-color: #0275d8;
+ }
+ /* end footer */
+ /* ......................................................... */
+ /* media query 576px*/
+ @media screen and   (max-width: 600px)
+ {
+    .header
+    {
+        height: 105vh;   
+    }
+    .nav
+    {
+        float: left;
+        width: 60%;
+        margin-top: 50px;
+    }
+ .nav ul li
+ {
+    padding-bottom: 5px;
+     width: 30%;
+ }
+ .logo img
+ {
+     width: 75%;
+ }
+ .header-content img
+ {
+     width: 100%;
+ }
+ .box
+ {
+     font-size: 20px;
+     width: 50px;
+     height: 90px;
+ }
+
+ .chef img
+ {
+     width: 200%;
+ }
+ .family-business
+ {
+     margin-top: 50px;
+     width: 95%;
+     padding-left: 15px;
+ }
+ .reviewers
+ {
+     margin-top: 150px;
+ }
+ .review
+ {
+     width: 95%;
+     padding-left: 15px;
+ }
+ .img-table img
+ {
+     margin-top: 70px;
+     width: 95%;
+     padding-left: 20px;
+ }
+ .background-img img
+ {
+     margin-top: 300px;
+ }
+ .list-menu
+ {
+     width: 95%;
+ }
+ .view-menu
+ {
+     margin-left: 120px;
+ }
+ .describe
+ {
+     width: 95%;
+ }
+ .icon-list .p1 span
+ {
+     font-size: 15px;
+ }
+ .map
+ {
+     margin-top: 80px;
+     padding-left: 0px;
+ }
+ .map iframe 
+ {
+     width: 400%;
+ }
+ .about-us,.useful-link,.open-hours,.contact-details
+ {
+     width: 95%;
+     padding-left: 10px;
+ }
+ .img-header img
+ {
+     width: 100%;
+ }
+ }
+ 
